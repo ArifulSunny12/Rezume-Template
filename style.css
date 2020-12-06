@@ -1,0 +1,613 @@
+
+body{
+    background-color: #222;
+}
+
+/*menu css start*/
+.headContainer{
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient(to right, rgba(0,0,0,.4), rgba(0,0,0,.4)),url("./image/1 (7).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.headContainer nav{
+   text-align: center;
+   padding-top: 30px;
+}
+.headContainer nav ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.headContainer nav ul li{
+    display:inline-block;
+    margin: 0px -2px;
+}
+
+.headContainer ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 15px 20px;
+}
+/*menu css end*/
+
+.title{
+    
+    width: 80%;
+    height: 300px;
+    margin: 0px auto;
+    margin-top: 250px;
+}
+.title1{
+    
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: -50px;
+}
+.p1{
+    color: white;
+    font-size: 70px;
+
+}
+
+.title1 h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+.p2{
+    color: white;
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+.title2{
+    background-color:#222;
+     width: 80%;
+     height: 90px;
+    margin: 0px auto;
+    text-align: center;
+   padding-top: 50px;
+    
+}
+
+
+.title2 h2{
+    
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+}
+strong{
+     font-weight: 800;
+
+}
+
+.title3{
+    background-color: #222;
+     width: 80%;
+     height: 50px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 10px;    
+}
+
+.title3 ul{
+    list-style: none;
+}
+.title3 ul li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.title3 ul li a{
+
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.title3 ul li a:hover{
+    
+    text-decoration: none;
+    color: yellow;
+}
+ /*mainContainer css start*/
+
+ .mainContainer{
+   
+
+    width: 80%;
+    height: 1060px;
+    margin: 0px auto;
+    margin-top: 40px;
+    
+ }
+
+ .innerContainer{
+    
+    width: 33.33%;
+    height: 530px;
+    float: left;
+    text-align: center;
+ }
+
+  .innerContainerImage img{
+   width: 92%;
+ }
+
+ .innerContainertext{
+    text-align: center;
+    color: white;
+ }
+ .innerContainertext h4{
+    font-size: 22px;
+    color: white;
+ }
+ /*mainContainer css end*/
+
+
+ .title4{
+    background-color:#222;
+     width: 100%;
+     height: 90px;
+    margin: 0px auto;
+    text-align: center;
+   padding: 50px 0px;
+
+    
+}
+
+
+.title4 h2{
+    
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+}
+strong{
+     font-weight: 800;
+
+}
+
+
+
+ /*Container1 css end*/
+
+ .Container1{
+    
+     width: 80%;
+    height: 1300px;
+    margin: 0px auto;
+    margin-top: 60px;
+ }
+
+
+ .leftResume{
+    
+    width: 50%;
+    height: 1100px;
+    float: left;
+    
+ }
+
+ .resumeHeader{
+     width: 95%;
+     margin: 0px auto;
+     color: white;
+ }
+
+.resumeItem{
+    background-color: #313131;
+    width: 85%;
+    height: 180px;
+    margin: 0px auto;
+    border-radius: 6px;
+    padding: 30px;
+    margin-bottom: 24px;
+    text-align: left;
+    color: white;
+}
+.icon-calendar{
+    color: white;
+    font-weight: bold;
+}
+.resumeItem h3{
+    color: #bac964;
+}
+
+.opacity{
+    color: white;
+     opacity: 0.5;
+}
+
+ /*Container1 css end*/
+
+
+ .Container2{
+    
+     width: 80%;
+    height: 450px;
+    margin: 0px auto;
+    margin-top: 150px;
+ }
+
+ .Container2Left{
+   
+    width: 55%;
+    height: 450px;
+    float: left;
+    text-align: center;
+ }
+
+  .Container2Left img{
+    width: 95%;
+ }
+
+
+
+  .Container2right{
+   
+    width: 39%;
+    height: 450px;
+    float: left;
+    padding-left: 48px;
+    padding-right: 15px;
+    margin-top: 0px;
+
+ }
+
+.Container2right div h2{
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+    
+}
+
+.pAboutMe1{
+    margin-top: 15px;
+   font-size: 25px;
+   color: white;
+   opacity: 0.5;
+}
+
+.pAboutMe2{
+     margin-top: 15px;
+   font-size: 15px;
+   color: white;
+   opacity: 0.5;
+   margin-bottom: 50px;
+}
+
+
+
+ .hireMe{
+   
+    background-color: #B1C367;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .2rem;
+
+ }
+
+ .hireMe:hover{
+   
+    background-color: #96A947;
+   
+ }
+
+  .downloadCV{
+   
+    background-color: #868383;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .2rem;
+    margin-left: 5px;
+ }
+
+ .downloadCV:hover{
+   
+    background-color: #767272;
+   
+ }
+
+/*end*/
+
+.ClientContainer{
+     width: 80%;
+    height: 680px;
+    margin: 0px auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+}
+
+.Client{
+   
+    width: 47.50%;
+    height:200px;
+    float: left;
+    padding: 0px 15px;
+   margin-bottom: 45px;
+
+}
+
+.ClientImage{
+    width: 20%;
+    border-radius: 50px;
+}
+
+.ClientImage img{
+    width: 60px;
+    border-radius: 100px;
+    float: left;
+    margin-top: 10px;
+}
+.ClientComments{
+   background-color: #313131;
+   width: 70%;
+   height: 130px;
+   float: left;
+   margin-left: 20px;
+   padding: 30px;
+}
+
+.ClientComment{
+    color: white;
+    opacity: .6;
+}
+.ClientName{
+    color: #666666;    
+}
+
+.ClientName a{
+    text-decoration: none;
+    color: #bac964;
+}
+
+/*end*/
+
+.Services{
+    width: 80%;
+    height: 450px;
+    margin: 0px auto;
+   
+}
+.ServicesItem{
+    width: 30%;
+    height: 450px;
+    text-align: center;
+    background-color: #313131;
+    margin: 0px 20px;
+    color: white;
+    float: left;
+}
+.ServicesIcon{
+    background-color: #bac964;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 120px;
+}
+.ServicesP{
+    margin: 0px 30px;
+    color: #666666;
+}
+
+.ServicesItem p a{
+    text-decoration: none;
+    color: #bac964;
+}
+
+/*MediumContainer start*/
+.MediumContainer{
+    width: 80%;
+    height: 700px;
+    
+    margin: 0px auto;
+}
+.Medium{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.MediumItem{
+    width: 30%;
+    height: 500px;
+    background-color: #313131;
+    margin: 0px 20px;
+    float: left;
+}
+.MediumImg{
+    background-color: white;
+    width: 100%;
+    height: 270px;
+}
+
+.MediumImg a{
+ text-decoration: none;
+}
+
+.MediumImg a img{
+ width: 100%;
+}
+
+.Mediumdetais{
+    padding: 20px;
+}
+
+.Mediumdetais h2{
+    color: white;
+}
+
+.Mediumdetais p{
+   color: #666666;
+}
+
+.Mediumdetais a{
+   text-decoration: none;
+   color: #666666;
+}
+
+/*MediumContainer end*/
+
+
+
+/*Get In Touch start*/
+
+.GetInTouchContainer{
+    width: 80%;
+    height: 1000px;
+   
+    margin: 0px auto;
+}
+.GetInTouchDetails{
+    width: 100%;
+    height: 800px;
+    
+}
+
+.GetInTouchForm{
+   width: 52%;
+   height: 800px;
+   
+   float: left;
+   padding: 0px 15px;
+}
+
+.GetInTouchH{
+    color: white;
+    font-size: 25px;
+}
+
+.GetInTouchInput{
+    width: 90%;
+    height: 40px;
+    border-radius: 4px;
+    margin: 6px 0px;
+    padding: 0px 15px;
+    background-color: #313131;
+    color: #666666;
+    border: 0px;
+}
+
+.GetInTouchForm form textarea{
+    width: 90%;
+    height: 300px;
+    border-radius: 4px;
+    margin: 6px 0px;
+    padding: 15px;
+    background-color: #313131;
+    color: #666666;
+    border: 0px;
+}
+
+.btnSubmit{
+
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 20px 0px;
+    padding: 0px 15px;
+    background-color: #bac964;
+    color: white;
+    border: 0px;
+
+}
+
+
+
+
+.GetInTouchInfo{
+   width: 42.9%;
+   height: 800px;
+    float: left;
+    padding: 0px 15px;
+}
+
+.GetInTouchInfo h5{
+   color: #2c3e50;
+   margin-bottom: 0px;
+   margin-top: 30px;
+}
+
+.GetInTouchInfo p{
+   color: #666666;
+   margin-top: 0px;
+}
+
+/*Get In Touch end*/
+
+
+ footer{
+   
+    padding-top: 20px;
+    color: #666666;
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    text-align: center;
+ }
+.footerIconDiv{
+    width: 40%;
+    height: 200px;
+    margin: 0px auto;
+   
+}
+.footerIcon{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background-color: #313131;
+    border-radius: 50px;
+    float: left;
+    margin: 0px 25px;
+}
+
+.footerIcon a{
+
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    position: absolute;
+    border-radius: 50px;
+    margin-left: -35px;
+    margin-top: 0px;
+}
+
+
+
+.footerIcon i{
+    padding-top: 20px;
+
+    position: relative;
+    color: #bac964;
+}
+
+
+
+
+
+
